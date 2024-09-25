@@ -1,0 +1,16 @@
+.adatok {
+    text-align: center;
+    font-size: 15px;
+}
+
+.navbar {
+    font-size: 20px;
+    background-color: rgba(220, 20, 60, 0.6);
+   
+}
+
+.adottOldCim {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
