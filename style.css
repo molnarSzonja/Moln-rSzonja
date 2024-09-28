@@ -35,9 +35,9 @@ body {
     width: 400px;
     max-width: 500px;
     margin: 0 auto;
-text-align: center ;
+    text-align: center;
     padding-right: 20px;
-    
+
 }
 
 
@@ -70,11 +70,13 @@ text-align: center ;
         width: 100%;
 
     }
+
     .about-image {
-       margin: auto;
-       margin-bottom: 40px;
+        margin: auto;
+        margin-bottom: 40px;
 
     }
+
     .about-section {
         padding: 0 10px;
         width: 100%;
@@ -114,4 +116,29 @@ blockquote span {
     margin-top: 1em;
 }
 
+#introducePage * {
+box-sizing: border-box;
+}
 
+.gallery {
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.gallery div img {
+    width: 100%;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
