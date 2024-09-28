@@ -1,12 +1,19 @@
 .adatok {
     text-align: center;
     font-size: 15px;
+    font-weight: bold;
+
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
 }
 
 .navbar {
     font-size: 20px;
     background-color: rgba(220, 20, 60, 0.6);
-   
+
 }
 
 .adottOldCim {
@@ -14,3 +21,97 @@
     text-transform: capitalize;
     margin-top: 20px;
 }
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.about-image {
+    flex: 1;
+    height: 500px;
+    width: 400px;
+    max-width: 500px;
+    margin: 0 auto;
+text-align: center ;
+    padding-right: 20px;
+    
+}
+
+
+
+.mainImage {
+    margin: auto;
+    max-height: 500px;
+    height: auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about-section {
+    flex: 2;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-right: 40px;
+    width: 50px;
+    height: fit-content;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .about-image {
+       margin: auto;
+       margin-bottom: 40px;
+
+    }
+    .about-section {
+        padding: 0 10px;
+        width: 100%;
+    }
+}
+
+blockquote {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 50px auto;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid rgba(220, 20, 60, 0.6);
+    line-height: 1.6;
+    position: relative;
+    background: #EDEDED;
+}
+
+blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: rgba(220, 20, 60, 0.6);
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+
+
+blockquote span {
+    display: block;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+
