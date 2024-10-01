@@ -154,7 +154,7 @@ blockquote span {
     margin: 5% auto; 
 }
 
-/* Reszponzív beállítások */
+
 @media (max-width: 768px) {
     .gallery {
         flex-direction: column; 
@@ -184,3 +184,36 @@ h3 {
 }
 
 
+.about-container {
+    display: flex; 
+    justify-content: center; 
+    min-height: 80vh;
+    padding: 20px; 
+}
+
+
+.about-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    max-width: 600px; 
+    width: 100%; 
+    text-align: center; 
+}
+
+
+#quote-display {
+    font-size: 1.5rem; 
+    color: #333; 
+}
+
+
+
+
+
+.author {
+    margin-top: 10px; 
+    font-size: 1.2rem; 
+    color: rgba(85, 85, 85, 0.9); 
+}
