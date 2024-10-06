@@ -2,7 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 4000;
+const port = 3000;
 
 app.use(cors());
 
@@ -18,13 +18,18 @@ const quotes = [
     author: "Theodore von Karman"
   },
   {
-    id: 4,
+    id: 3,
     text: "puszi",
     author: "Katalin Boráros"
   },
   {
-    id: 5,
+    id: 4,
     text: "papapaa",
+    author: "Katalin Boráros"
+  },
+  {
+    id: 5,
+    text: "Menő vagy cica",
     author: "Katalin Boráros"
   },
   {
@@ -33,7 +38,7 @@ const quotes = [
     author: "Katalin Boráros"
   },
   {
-    id: 3,
+    id: 7,
     text: "Menő vagy cica",
     author: "Katalin Boráros"
   },
@@ -43,12 +48,7 @@ const quotes = [
     author: "Katalin Boráros"
   },
   {
-    id: 3,
-    text: "Menő vagy cica",
-    author: "Katalin Boráros"
-  },
-  {
-    id: 3,
+    id: 8,
     text: "Menő vagy cica",
     author: "Katalin Boráros"
   }
