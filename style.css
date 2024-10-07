@@ -8,15 +8,12 @@
 body {
     font-family: "Playfair Display", serif;
     font-style: normal;
-    margin: 0;
-    padding: 0;
 
 }
 
 .navbar {
     font-size: 20px;
     background-color: rgba(220, 20, 60, 0.6);
-    width: 100%;
 }
 
 .adottOldCim {
@@ -173,6 +170,21 @@ blockquote span {
         max-width: 200px; 
         margin: 5px 0; 
     }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-image, .right-image {
+        flex: 1 100%; /* 100% szélesség kisebb képernyőkön */
+        margin: 0; /* Nincs margin */
+        padding: 10px 0;
+    }
+
+    .center-text {
+        flex: 1 100%; /* 100% szélesség */
+    }
 }
 
 h3 {
@@ -229,5 +241,53 @@ h3 {
 .row{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image-container {
+    display: flex; /* Flexbox elrendezés */
+    justify-content: space-between; /* Szélekhez igazítás */
+    align-items: center; /* Középre igazítás */
+    margin-top: 100px;
+    flex-wrap: wrap; /* Margó a képek és a címek között */
+}
+
+.left-image, .right-image {
+    flex: 1; /* Képek egyenlő helyet foglalnak el */
+    display: flex; /* Flexbox a kép középre igazításához */
+    justify-content: center; /* Kép középre igazítása */
+}
+
+.center-text {
+    flex: 1; /* Középső szöveg egyenlő helyet foglal el */
+    text-align: center; /* Középre igazítás */
+    margin: 0 20px; /* Margó a szöveg körül */
+}
+
+.img-fluid {
+    max-width: 100%; /* Kép szélessége */
+    height: auto; /* Arányos magasság */
+    border-radius: 8px; /* Lekerekített sarkok */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Árnyék a képen */
+}
+
+/* Ha szeretnéd a képeket egy kicsit kisebbé tenni, vagy a képek közötti távolságot növelni, használj padding-ot */
+.left-image img,
+.right-image img {
+    max-width: 90%; /* Képek max szélessége */
+    padding: 0 10px; /* Padding a képek körül */
+}

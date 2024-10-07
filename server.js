@@ -19,38 +19,38 @@ const quotes = [
   },
   {
     id: 3,
-    text: "puszi",
-    author: "Katalin Boráros"
+    text: "A mérnökség az, ami a tudományok között hidat képez, lehetővé téve, hogy a tudományos elméletek gyakorlati formát öltsenek.",
+    author: "Gottfried Wilhelm Leibniz"
   },
   {
     id: 4,
-    text: "papapaa",
-    author: "Katalin Boráros"
+    text: "A tanulás a tudás kulcsa, de a tudás csak az út, a tapasztalat a cél.",
+    author: "Benjamin Franklin"
   },
   {
     id: 5,
-    text: "Menő vagy cica",
-    author: "Katalin Boráros"
+    text: "A tudás a legértékesebb ajándék, amit egy ember kaphat.",
+    author: "Plato"
   },
   {
     id: 6,
-    text: "Menő vagy cica",
-    author: "Katalin Boráros"
+    text: "A tanulás a legnagyobb befektetés, amelyet egy ember valaha is tehet.",
+    author: "Winston Churchill"
   },
   {
     id: 7,
-    text: "Menő vagy cica",
-    author: "Katalin Boráros"
-  },
-  {
-    id: 3,
-    text: "Menő vagy cica",
-    author: "Katalin Boráros"
+    text: "A tudás nemcsak hatalom, hanem kulcs is, amely megnyitja a siker kapuit",
+    author: "Dale Carnegie"
   },
   {
     id: 8,
-    text: "Menő vagy cica",
-    author: "Katalin Boráros"
+    text: "A tanulás a legnagyobb fegyver, amellyel a világ megváltoztatására használhatunk.",
+    author: "Nelson Mandela"
+  },
+  {
+    id: 9,
+    text: "A tanulás a tapasztalatok összegyűjtése. Az intelligencia pedig az, hogy mit kezdesz a tapasztalataiddal.",
+    author: "Albert Einstein"
   }
 ];
 
