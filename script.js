@@ -10,7 +10,6 @@ function autoScroll() {
 let autoScrollInterval = setInterval(autoScroll, 20); 
 
 
-
 let quotes = [];
 
 function fetchQuotes() {
